@@ -110,3 +110,18 @@ main,header{
     text-align: center;
     font-size: 25px;
 }
+/* offer section styles */
+.offer-details{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer-image{
+    padding: 10px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.offer-info{
+    width: 33%;
+}
