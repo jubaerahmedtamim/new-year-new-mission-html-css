@@ -116,6 +116,7 @@ main,header{
     gap: 100px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 .offer-image{
     padding: 10px;
@@ -128,4 +129,37 @@ main,header{
 .running-year{
     font-size: 40px;
     font-weight: bolder;
+}
+/* newsletter */
+.newsletter{
+    background-color: rgb(251, 237, 240);
+    border-radius: 20px;
+}
+.newsletter-details{
+    text-align: center;
+    padding: 50px 100px;
+}
+.email-input{
+
+    padding-bottom: 50px;
+    text-align: center;
+}
+.email-input input[type='email']{
+    
+    border:none;
+    background-color: white;
+    padding: 10px 20px;
+    color: gray;
+    font-size: large;
+    border-radius: 30px 0px 0px 30px;
+
+}
+.email-input input[type='submit']{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 0px 30px 30px 0px;
+
 }
