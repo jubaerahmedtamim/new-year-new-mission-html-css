@@ -10,6 +10,16 @@
     color: rgb(253, 0, 0);
 }
 
+.primary-btn{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .section-title {
     color: black;
     font-size: 40px;
@@ -65,6 +75,7 @@ main,header{
     background-blend-mode: darken;
     border-radius: 20px;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 .greeting-info{
     color: white;
@@ -87,4 +98,15 @@ main,header{
     border: 1px solid white;
     border-radius: 5px;
     padding: 10px;
+}
+/* time and address style */
+.time-address{
+    background-image:linear-gradient(to top, rgba(255, 1, 1, 0), rgba(217, 160, 160, 0.8)) ;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+.time-address-info{
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
 }
