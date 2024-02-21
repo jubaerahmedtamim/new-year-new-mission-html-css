@@ -130,6 +130,15 @@ main,header{
     font-size: 40px;
     font-weight: bolder;
 }
+/* portfolio section */
+.portfolio{
+    margin-bottom: 100px;
+}
+.portfolio-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 /* newsletter */
 .newsletter{
     background-color: rgb(251, 237, 240);
@@ -205,4 +214,5 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
 
