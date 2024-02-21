@@ -125,3 +125,7 @@ main,header{
 .offer-info{
     width: 33%;
 }
+.running-year{
+    font-size: 40px;
+    font-weight: bolder;
+}
