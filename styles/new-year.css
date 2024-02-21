@@ -1,0 +1,29 @@
+/* all shared styles here */
+
+/* header style here */
+header{
+    margin: 80px 250px;
+    
+
+}
+.banner{
+    /* background-image: rgba(0,0,0,0.3)url("../images/Banner\ Image.png");  */
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(4, 4, 4, 0.8)), url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    text-align: center;
+    padding: 200px 250px;
+    border-radius: 15px;
+}
+.title-info-small{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.title-info{
+    font-size: 80px;
+    line-height: 20px;
+}
