@@ -1,10 +1,26 @@
 /* all shared styles here */
 
+.primary-color-with-fontsize{
+    line-height: 20px;
+    font-size: 60px;
+    font-weight:bolder;
+}
+
+.primary-color{
+    color: rgb(253, 0, 0);
+}
+
+.section-title {
+    color: black;
+    font-size: 40px;
+    margin-top: 0;
+
+}
+
 /* header style here */
-header{
+main,header{
     margin: 80px 250px;
     
-
 }
 .banner{
     /* background-image: rgba(0,0,0,0.3)url("../images/Banner\ Image.png");  */
@@ -17,6 +33,7 @@ header{
     text-align: center;
     padding: 200px 250px;
     border-radius: 15px;
+    margin-bottom: 150px;
 }
 .title-info-small{
     font-size: 30px;
@@ -27,3 +44,14 @@ header{
     font-size: 80px;
     line-height: 20px;
 }
+
+/* main section here */
+
+/* discount section here */
+.discount{
+    text-align: center;
+}
+.discount-details{
+
+}
+.
